@@ -824,3 +824,122 @@ Hello
 10-Feb-2026 09:36:01.572 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 10-Feb-2026 09:36:01.583 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 10-Feb-2026 09:36:01.583 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:36:34.935 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/sahilpatel/Library/Java/JavaVirtualMachines/corretto-21.0.10/Contents/Home
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+7-LTS
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:36:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:36:34.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49/conf/logging.properties
+10-Feb-2026 09:36:34.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Feb-2026 09:36:34.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:36:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49/temp
+10-Feb-2026 09:36:34.943 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/sahilpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Feb-2026 09:36:35.031 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:36:35.037 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1073)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:577)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1398)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1411)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1071)
+		... 11 more
+10-Feb-2026 09:36:35.038 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [149] milliseconds
+10-Feb-2026 09:36:35.048 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Feb-2026 09:36:35.048 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+10-Feb-2026 09:36:35.052 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/sample.war]
+10-Feb-2026 09:36:35.163 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.174 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/sample.war] has finished in [122] ms
+10-Feb-2026 09:36:35.174 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.5.war]
+10-Feb-2026 09:36:35.234 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.234 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.5.war] has finished in [60] ms
+10-Feb-2026 09:36:35.234 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.4.war]
+10-Feb-2026 09:36:35.279 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.280 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.4.war] has finished in [46] ms
+10-Feb-2026 09:36:35.280 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war]
+10-Feb-2026 09:36:35.309 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.310 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war] has finished in [30] ms
+10-Feb-2026 09:36:35.310 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war]
+10-Feb-2026 09:36:35.338 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.339 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war] has finished in [29] ms
+10-Feb-2026 09:36:35.339 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war]
+10-Feb-2026 09:36:35.380 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.381 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war] has finished in [42] ms
+10-Feb-2026 09:36:35.381 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war]
+10-Feb-2026 09:36:35.409 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.409 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war] has finished in [28] ms
+10-Feb-2026 09:36:35.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/docs]
+10-Feb-2026 09:36:35.436 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/docs] has finished in [28] ms
+10-Feb-2026 09:36:35.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/manager]
+10-Feb-2026 09:36:35.464 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/manager] has finished in [29] ms
+10-Feb-2026 09:36:35.466 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/examples]
+10-Feb-2026 09:36:35.494 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.5.war]
+10-Feb-2026 09:36:35.528 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/examples] has finished in [67] ms
+10-Feb-2026 09:36:35.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/ROOT]
+10-Feb-2026 09:36:35.545 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.545 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.5.war] has finished in [51] ms
+10-Feb-2026 09:36:35.560 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/ROOT] has finished in [28] ms
+10-Feb-2026 09:36:35.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/host-manager]
+10-Feb-2026 09:36:35.587 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:36:35.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/host-manager] has finished in [27] ms
+10-Feb-2026 09:36:35.589 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [550] milliseconds
+10-Feb-2026 09:36:35.591 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:577)
+		at java.base/sun.nio.ch.Net.bind(Net.java:566)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:531)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:848)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:796)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Feb-2026 09:36:35.591 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:36:35.591 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Feb-2026 09:36:35.603 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:36:35.603 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Hello
+Hello
