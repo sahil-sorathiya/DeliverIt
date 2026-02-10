@@ -1,4 +1,4 @@
-./apache-tomcat-10.1.49/bin/shudown.sh
+./apache-tomcat-10.1.49/bin/shutdown.sh
 
 mvn clean package
 
