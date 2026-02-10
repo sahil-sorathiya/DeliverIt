@@ -17,7 +17,7 @@ public class MyServlet extends HttpServlet {
         try {
             String url = "jdbc:postgresql://127.0.0.1:5432/todo";
             Properties properties = new Properties();
-            properties.setProperty("user", "sahilpatel");
+            properties.setProperty("user", "postgres");
             properties.setProperty("password", "4100");
 
             Connection connection = DriverManager.getConnection(url, properties);
