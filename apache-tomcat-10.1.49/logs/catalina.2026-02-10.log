@@ -1,0 +1,3 @@
+10-Feb-2026 08:33:45.089 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Deliverit-1.11]
+10-Feb-2026 08:34:45.133 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war]
+10-Feb-2026 08:34:45.160 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war] has finished in [27] ms
