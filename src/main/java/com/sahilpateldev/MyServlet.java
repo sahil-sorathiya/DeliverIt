@@ -22,7 +22,7 @@ public class MyServlet extends HttpServlet {
 
             Connection connection = DriverManager.getConnection(url, properties);
 
-            PreparedStatement ps = connection.prepareStatement("CREATE DATABASE test");
+            PreparedStatement ps = connection.prepareStatement("SELECT * FROM todos");
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
                 res.setContentType("text/html");
