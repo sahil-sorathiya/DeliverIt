@@ -65,3 +65,7 @@
 0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:04:27 +0530] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 808
 0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:04:59 +0530] "GET /Deliverit-2.9/myservlet HTTP/1.1" 500 1699
 0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:04:59 +0530] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:16:24 +0530] "GET /Deliverit-2.10/myservlet HTTP/1.1" 500 1849
+0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:16:24 +0530] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:16:29 +0530] "GET /Deliverit-2.10/myservlet HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [10/Feb/2026:10:16:29 +0530] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 808

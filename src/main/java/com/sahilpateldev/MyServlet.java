@@ -26,7 +26,7 @@ public class MyServlet extends HttpServlet {
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
                 res.setContentType("text/html");
-                res.getWriter().print(rs.getString((1)));
+                res.getWriter().print(rs.getString(1) + " " + rs.getString(2));
             }
 
             rs.close();
