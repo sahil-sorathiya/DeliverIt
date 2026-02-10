@@ -1,3 +1,69 @@
 10-Feb-2026 08:33:45.089 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Deliverit-1.11]
 10-Feb-2026 08:34:45.133 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war]
 10-Feb-2026 08:34:45.160 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war] has finished in [27] ms
+10-Feb-2026 09:06:46.131 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war]
+10-Feb-2026 09:06:46.171 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war] has finished in [40] ms
+10-Feb-2026 09:09:56.294 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war]
+10-Feb-2026 09:09:56.326 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war] has finished in [32] ms
+10-Feb-2026 09:17:46.590 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war]
+10-Feb-2026 09:17:46.691 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:17:46.691 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war] has finished in [101] ms
+10-Feb-2026 09:24:33.489 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Feb-2026 09:24:33.490 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:24:33.496 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Feb-2026 09:24:33.511 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:24:33.524 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:24:41.238 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            26.2
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/sahilpatel/Library/Java/JavaVirtualMachines/corretto-21.0.10/Contents/Home
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.10+7-LTS
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:24:41.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49/conf/logging.properties
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+10-Feb-2026 09:24:41.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49
+10-Feb-2026 09:24:41.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sahilpatel/code/DeliverIt/apache-tomcat-10.1.49/temp
+10-Feb-2026 09:24:41.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/sahilpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Feb-2026 09:24:41.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:24:41.357 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [173] milliseconds
+10-Feb-2026 09:24:41.369 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Feb-2026 09:24:41.369 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+10-Feb-2026 09:24:41.374 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/sample.war]
+10-Feb-2026 09:24:41.459 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/sample.war] has finished in [85] ms
+10-Feb-2026 09:24:41.460 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war]
+10-Feb-2026 09:24:41.467 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.0.war] has finished in [7] ms
+10-Feb-2026 09:24:41.468 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war]
+10-Feb-2026 09:24:41.475 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.1.war] has finished in [7] ms
+10-Feb-2026 09:24:41.476 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war]
+10-Feb-2026 09:24:41.537 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2026 09:24:41.538 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.3.war] has finished in [62] ms
+10-Feb-2026 09:24:41.538 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war]
+10-Feb-2026 09:24:41.545 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/Deliverit-2.2.war] has finished in [7] ms
+10-Feb-2026 09:24:41.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/docs]
+10-Feb-2026 09:24:41.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/docs] has finished in [7] ms
+10-Feb-2026 09:24:41.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/manager]
+10-Feb-2026 09:24:41.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/manager] has finished in [9] ms
+10-Feb-2026 09:24:41.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/examples]
+10-Feb-2026 09:24:41.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/examples] has finished in [58] ms
+10-Feb-2026 09:24:41.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/ROOT]
+10-Feb-2026 09:24:41.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/ROOT] has finished in [4] ms
+10-Feb-2026 09:24:41.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/host-manager]
+10-Feb-2026 09:24:41.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sahilpatel/Code/DeliverIt/apache-tomcat-10.1.49/webapps/host-manager] has finished in [5] ms
+10-Feb-2026 09:24:41.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Feb-2026 09:24:41.634 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [276] milliseconds
